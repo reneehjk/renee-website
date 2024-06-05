@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/renee-website/static/css/main.f767f1ab.css",
-    "main.js": "/renee-website/static/js/main.3b887819.js",
+    "main.js": "/renee-website/static/js/main.cee0acd1.js",
     "static/media/pic3.jpg": "/renee-website/static/media/pic3.221a04cc74c2902913ee.jpg",
     "static/media/pic2.png": "/renee-website/static/media/pic2.58f98ae1d91010a43299.png",
     "static/media/pic5.jpg": "/renee-website/static/media/pic5.13444c24dd57369a5528.jpg",
@@ -14,10 +14,10 @@
     "static/media/todoList.png": "/renee-website/static/media/todoList.9a3b17e6339716bc12be.png",
     "index.html": "/renee-website/index.html",
     "main.f767f1ab.css.map": "/renee-website/static/css/main.f767f1ab.css.map",
-    "main.3b887819.js.map": "/renee-website/static/js/main.3b887819.js.map"
+    "main.cee0acd1.js.map": "/renee-website/static/js/main.cee0acd1.js.map"
   },
   "entrypoints": [
     "static/css/main.f767f1ab.css",
-    "static/js/main.3b887819.js"
+    "static/js/main.cee0acd1.js"
   ]
 }
