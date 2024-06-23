@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/renee-website/static/css/main.f767f1ab.css",
-    "main.js": "/renee-website/static/js/main.2e26668c.js",
+    "main.css": "/renee-website/static/css/main.3423580e.css",
+    "main.js": "/renee-website/static/js/main.7bf966ed.js",
     "static/media/pic3.jpg": "/renee-website/static/media/pic3.221a04cc74c2902913ee.jpg",
     "static/media/pic2.png": "/renee-website/static/media/pic2.58f98ae1d91010a43299.png",
     "static/media/pic5.jpg": "/renee-website/static/media/pic5.13444c24dd57369a5528.jpg",
@@ -9,17 +9,21 @@
     "static/media/pic1.jpg": "/renee-website/static/media/pic1.a272cd864131996f7562.jpg",
     "static/media/pic4.jpg": "/renee-website/static/media/pic4.6da6a05456565752ec67.jpg",
     "static/media/resume.pdf": "/renee-website/static/media/resume.e420d5281bf9059daeeb.pdf",
+    "static/media/ThisCafe.ttf": "/renee-website/static/media/ThisCafe.e9c5e3c8447ff5db3df5.ttf",
     "static/media/renee.jpg": "/renee-website/static/media/renee.79cccf6efc04c3231a89.jpg",
     "static/media/pic6.jpg": "/renee-website/static/media/pic6.03a06ca258050cee3945.jpg",
     "static/media/roomieMatch.png": "/renee-website/static/media/roomieMatch.b8c9fe3db42ee486bcf7.png",
+    "static/media/CaviarDreams.ttf": "/renee-website/static/media/CaviarDreams.174b0a13f7e49c169450.ttf",
+    "static/media/HappyMemories.ttf": "/renee-website/static/media/HappyMemories.6db56db833c66ec50acf.ttf",
+    "static/media/Playground.ttf": "/renee-website/static/media/Playground.e4dff232da2fe4873369.ttf",
     "static/media/calCalculator.png": "/renee-website/static/media/calCalculator.047c26d762de48a0986d.png",
     "static/media/todoList.png": "/renee-website/static/media/todoList.9a3b17e6339716bc12be.png",
     "index.html": "/renee-website/index.html",
-    "main.f767f1ab.css.map": "/renee-website/static/css/main.f767f1ab.css.map",
-    "main.2e26668c.js.map": "/renee-website/static/js/main.2e26668c.js.map"
+    "main.3423580e.css.map": "/renee-website/static/css/main.3423580e.css.map",
+    "main.7bf966ed.js.map": "/renee-website/static/js/main.7bf966ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.f767f1ab.css",
-    "static/js/main.2e26668c.js"
+    "static/css/main.3423580e.css",
+    "static/js/main.7bf966ed.js"
   ]
 }
