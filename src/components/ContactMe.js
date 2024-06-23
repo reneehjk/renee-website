@@ -4,8 +4,8 @@ const ContactMe = () => (
   <footer id="contactme" style={styles.footer}>
     <h2>Contact Me</h2>
     <div style={styles.links}>
-      <a href="https://www.instagram.com/reneehjk" target="_blank" rel="noopener noreferrer" style={styles.link}>
-        Instagram
+      <a href="https://devpost.com/reneehjkim11" target="_blank" rel="noopener noreferrer" style={styles.link}>
+        Devpost
       </a>
       <a href="https://www.linkedin.com/in/reneehjkim" target="_blank" rel="noopener noreferrer" style={styles.link}>
         LinkedIn
