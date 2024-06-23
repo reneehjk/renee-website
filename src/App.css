@@ -10,13 +10,41 @@
   }
 }
 
+@font-face {
+  font-family: 'HeaderFont';
+  src: url('./fonts/HappyMemories.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HeaderFont1';
+  src: url('./fonts/Playground.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HeaderFont2';
+  src: url('./fonts/ThisCafe.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SubHeader';
+  src: url('./fonts/CaviarDreams.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
   background: linear-gradient(45deg, #ffafbd, #ffc3a0, #a1c4fd, #ffafbd);
   background-size: 100% 100%;
-  animation: gradient 8s ease infinite;
+  animation: gradient 5s ease infinite;
   color: white;
 }
 
@@ -25,33 +53,28 @@ section {
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'HeaderFont2', sans-serif;
   text-align: left;
   color: white;
+  font-size: 180px;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'HeaderFont2', sans-serif;
   font-size: 50px;
   text-align: center;
   color: white;
 }
 
 h3 {
+  font-family: 'SubHeader', sans-serif;
   font-size: 30px;
   text-align: center;
   color: #002366;
 }
 
-
-h4 {
-  font-size: 40px;
-  text-align: left;
-  color: #002366;
-}
-
-
 p, a {
+  font-family: 'SubHeader', sans-serif;
   color: #002366;
 }
 
