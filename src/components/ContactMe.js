@@ -28,17 +28,16 @@ const styles = {
     backgroundColor: 'rgba(0, 0, 100, 0.25)',
     color: 'white',
     textAlign: 'center',
-    padding: '1em 0',
     zIndex: 1000,
   },
   links: {
     display: 'flex',
     justifyContent: 'center',
-    gap: '2em',
+    gap: '10%',
     marginTop: '1em',
   },
   link: {
-    color: 'pink',
+    color: '#002366',
     textDecoration: 'none',
     fontSize: '1.2em',
   }

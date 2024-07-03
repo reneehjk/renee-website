@@ -10,6 +10,27 @@
   }
 }
 
+@keyframes slideIn {
+  from {
+    transform: translateY(200%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 @font-face {
   font-family: 'HeaderFont';
   src: url('./fonts/HappyMemories.ttf') format('truetype');
@@ -44,7 +65,7 @@ body {
   scroll-behavior: smooth;
   background: linear-gradient(45deg, #ffafbd, #ffc3a0, #a1c4fd, #ffafbd);
   background-size: 100% 100%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 3s ease infinite;
   color: white;
 }
 
@@ -56,12 +77,13 @@ h1 {
   font-family: 'HeaderFont2', sans-serif;
   text-align: left;
   color: white;
-  font-size: 180px;
+  animation: slideIn 0.5s ease-out;
+  animation: bounce 3s infinite;
 }
 
 h2 {
   font-family: 'HeaderFont2', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   color: white;
 }
@@ -71,6 +93,7 @@ h3 {
   font-size: 30px;
   text-align: center;
   color: #002366;
+  animation: slideIn 2s ease-out;
 }
 
 p, a {
@@ -80,6 +103,10 @@ p, a {
 
 #introduction, #aboutme, #projects {
   padding-top: 60px; 
+}
+
+.aboutme p {
+  font-size: 40px;
 }
 
 footer {

@@ -8,7 +8,7 @@ const SlideShow = ({ images }) => {
   }, [images.length]);
 
   useEffect(() => {
-    const intervalId = setInterval(goToNext, 5000);
+    const intervalId = setInterval(goToNext, 10000);
 
     return () => clearInterval(intervalId);
   }, [goToNext]);
@@ -18,9 +18,21 @@ const SlideShow = ({ images }) => {
   }, [images.length]);
 
   return (
-    <div style={{ position: 'relative', maxWidth: '20%', maxHeight: '400px', margin: '0 auto', overflow: 'hidden' }}>
-      <div style={{ position: 'relative', width: '100%', paddingBottom: '80%', overflow: 'hidden' }}>
-        <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+    <div style={{  position: 'relative', maxWidth: '600px', maxHeight: '600px', margin: '0 auto', overflow: 'hidden' }}>
+      <div style={{ position: 'relative', width: '100%', paddingBottom: '80%', paddingTop: '20%', overflow: 'hidden' }}>
+        <img 
+          src={images[currentIndex]} 
+          alt={`Slide ${currentIndex + 1}`} 
+          style={{ 
+            position: 'absolute', 
+            top: 0, 
+            left: 0, 
+            width: '100%', 
+            height: '100%', 
+            objectFit: 'cover',
+            borderRadius: '40px'
+          }} 
+        />
         <button onClick={goToPrev} style={styles.prevButton}>◀</button>
         <button onClick={goToNext} style={styles.nextButton}>▶</button>
       </div>

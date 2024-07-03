@@ -4,9 +4,9 @@ import { Link } from 'react-scroll';
 const Header = () => (
   <header style={styles.header}>
     <nav style={styles.nav}>
-      <Link to="home" smooth={true} duration={500} style={styles.link}>Home</Link>
-      <Link to="aboutme" smooth={true} duration={500} style={styles.link}>About Me</Link>
-      <Link to="projects" smooth={true} duration={500} style={styles.link}>Projects</Link>
+      <Link to="home" smooth={true} duration={500} style={styles.link}><b>Home</b></Link>
+      <Link to="aboutme" smooth={true} duration={500} style={styles.link}><b>About Me</b></Link>
+      <Link to="projects" smooth={true} duration={500} style={styles.link}><b>Projects</b></Link>
     </nav>
   </header>
 );
@@ -23,7 +23,7 @@ const styles = {
   nav: {
     display: 'flex',
     justifyContent: 'center',
-    gap: '1em',
+    gap: '10%',
   },
   link: {
     color: 'white',
