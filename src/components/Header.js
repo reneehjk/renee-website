@@ -7,6 +7,7 @@ const Header = () => (
       <Link to="home" smooth={true} duration={500} style={styles.link}><b>Home</b></Link>
       <Link to="aboutme" smooth={true} duration={500} style={styles.link}><b>About Me</b></Link>
       <Link to="projects" smooth={true} duration={500} style={styles.link}><b>Projects</b></Link>
+      <Link to="contactme" smooth={true} duration={500} style={styles.link}><b>Contact Me</b></Link>
     </nav>
   </header>
 );

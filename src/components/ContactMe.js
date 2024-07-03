@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => (
   <footer id="contactme" style={styles.footer}>
-    <h2>Contact Me</h2>
+    <h4>Contact Me</h4>
     <div style={styles.links}>
       <a href="https://devpost.com/reneehjkim11" target="_blank" rel="noopener noreferrer" style={styles.link}>
         Devpost
@@ -22,7 +22,6 @@ const ContactMe = () => (
 
 const styles = {
   footer: {
-    position: 'sticky',
     bottom: 0,
     width: '100%',
     backgroundColor: 'rgba(0, 0, 100, 0.25)',

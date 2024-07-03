@@ -77,7 +77,6 @@ h1 {
   font-family: 'HeaderFont2', sans-serif;
   text-align: left;
   color: white;
-  animation: slideIn 0.5s ease-out;
   animation: bounce 3s infinite;
 }
 
@@ -86,6 +85,7 @@ h2 {
   font-size: 70px;
   text-align: center;
   color: white;
+  animation: bounce 3s infinite;
 }
 
 h3 {
@@ -94,6 +94,14 @@ h3 {
   text-align: center;
   color: #002366;
   animation: slideIn 2s ease-out;
+}
+
+h4 {
+  font-family: 'HeaderFont2', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  animation: bounce 3s infinite;
 }
 
 p, a {
@@ -110,7 +118,6 @@ p, a {
 }
 
 footer {
-  position: sticky;
   bottom: 0;
   width: 100%;
   padding: 1em 0;
